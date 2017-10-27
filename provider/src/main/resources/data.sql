@@ -1,0 +1,5 @@
+insert into user (id,name,age,desc) values (1,'zhangsan',21,'我')
+insert into user (id,name,age,desc)  VALUES (2,'lisi',16,'是')
+insert into user (id,name,age,desc)  VALUES (3,'wangwu',13,'中')
+insert into user (id,name,age,desc)  VALUES (4,'zhaoliu',15,'国')
+insert into user (id,name,age,desc)  VALUES (5,'zhouqi',11,'人')
