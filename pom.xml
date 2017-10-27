@@ -46,7 +46,7 @@
         <module>provider</module>
         <module>consumer</module>
         <module>eureka-server</module>
-        <module>consumer-ribbon</module>
+        <!--<module>consumer-ribbon</module>-->
     </modules>
 </project>
 
