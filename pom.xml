@@ -47,6 +47,7 @@
         <module>consumer</module>
         <module>eureka-server</module>
         <module>consumer-ribbon</module>
+        <module>consumer-ribbon-customize</module>
     </modules>
 </project>
 
