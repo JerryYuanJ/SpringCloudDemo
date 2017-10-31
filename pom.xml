@@ -48,6 +48,7 @@
         <module>eureka-server</module>
         <module>consumer-ribbon</module>
         <module>consumer-ribbon-customize</module>
+        <module>consumer-feign</module>
     </modules>
 </project>
 

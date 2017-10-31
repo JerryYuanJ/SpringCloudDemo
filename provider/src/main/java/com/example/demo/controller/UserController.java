@@ -8,9 +8,7 @@ import com.netflix.discovery.converters.Auto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by Joker on 2017/10/10.
@@ -42,5 +40,17 @@ public class UserController {
     public ServiceInstance instanceInfo() {
         ServiceInstance instance = this.discoveryClient.getLocalServiceInstance();
         return instance;
+    }
+
+    //feign请求的url
+    @PostMapping("/user")
+    public User postUser(@RequestBody User user) {
+        return user;
+    }
+
+    // feign请求的url，此请求不会成功
+    @GetMapping("/get-user")
+    public User getUser(User user) {
+        return user;
     }
 }
