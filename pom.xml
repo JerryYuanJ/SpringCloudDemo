@@ -49,6 +49,7 @@
         <module>consumer-ribbon</module>
         <module>consumer-ribbon-customize</module>
         <module>consumer-feign</module>
+        <module>consumer-feign-customize</module>
     </modules>
 </project>
 
